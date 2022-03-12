@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e5796d7cdb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="todo">
+      <div class="task-input">
+        <span><i id="i" class="fa-solid fa-pen-clip"></i></span>
+        <input type="text" placeholder="Add a new task" />
+        <button class="add"><i class="fa-solid fa-plus"></i></button>
+      </div>
+
+      <ul class="task-box"></ul>
+      <div class="clear">
+        <p>You have <span class="pendingTask"></span> pending tasks</p>
+        <button class="clear-btn">Clear All</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
